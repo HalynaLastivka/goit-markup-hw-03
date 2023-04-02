@@ -53,7 +53,21 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
+.main-nav {
+    display: flex;
+
+}
+
+.site-nav {
+    display: flex;
+    /* align-items: flex-start; */
+}
+
 
 .item-studio {
     color: var(--akcent-color);
@@ -81,6 +95,10 @@ body {
     font-style: normal;
 }
 
+.site-contact {
+    display: flex;
+}
+
 .item-contact:hover,
 .item-contact:focus {
     color: var(--hover-focus);
@@ -91,6 +109,8 @@ body {
 /*hero*/
 .hero {
     background-color: var(--akcent-color);
+    text-align: center;
+    margin-bottom: 120px;
 }
 
 .hero-title {
@@ -100,6 +120,8 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 64px;
+
 }
 
 .hero-btn {
@@ -120,6 +142,8 @@ body {
 }
 
 /*feature*/
+
+
 .feature-title {
     color: var(--akcent-color);
     font-weight: 500;
@@ -128,11 +152,29 @@ body {
     letter-spacing: 0.02em;
 }
 
+.features-nt {
+    display: flex;
+    flex-direction: row;
+}
+
+.feature-text {
+    padding-top: 8px;
+}
+
+
 /*our work*/
+.work-not {
+    display: flex;
+}
+
 
 /*our team*/
 .team {
     background-color: var(--color-text-footer);
+}
+
+.team-not {
+    display: flex;
 }
 
 .member {
@@ -211,4 +253,34 @@ body {
 .filter-btn:focus {
     background-color: var(--hover-focus);
     color: var(--background-main);
+}
+
+/* position */
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    padding-bottom: 120px;
 }
