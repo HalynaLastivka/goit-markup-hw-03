@@ -75,6 +75,10 @@ body {
     margin-right: auto;
 }
 
+.menu .logo {
+    padding: 24px 0;
+}
+
 
 .main-nav {
     display: flex;
@@ -128,17 +132,20 @@ body {
     display: flex;
     align-items: center;
     margin-right: auto;
+    gap: 40px;
 }
 
 .site-contact {
     display: flex;
-
-}
-
-.site-contact>li {
     gap: 40px;
 
+
 }
+
+/* .site-contact>li {
+    gap: 40px;
+
+} */
 
 .item-contact:hover,
 .item-contact:focus {
@@ -148,7 +155,7 @@ body {
 
 
 /*hero*/
-.hero {
+.hero.section {
     padding-top: 188px;
     padding-bottom: 188px;
 
@@ -239,7 +246,7 @@ body {
     gap: 24px;
 }
 
-.work-not:first-child {
+.work-item:first-child {
     flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
