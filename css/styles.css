@@ -90,6 +90,9 @@ body {
 .site-nav {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
 }
 
 
@@ -99,10 +102,10 @@ body {
     margin-right: 40px;
 }
 
-.it-list {
+/* .it-list {
     padding-top: 24px;
     padding-bottom: 24px;
-}
+} */
 
 .item-studio {
     color: var(--akcent-color);
@@ -234,7 +237,7 @@ body {
     margin-right: 24px;
 }
 
-.features-item:first-child {
+.features-nt:first-child {
     width: calc((100% - 72px) / 4);
 }
 
