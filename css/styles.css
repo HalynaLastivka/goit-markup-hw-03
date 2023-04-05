@@ -237,8 +237,8 @@ body {
     margin-right: 24px;
 }
 
-.features-nt:first-child {
-    width: calc((100% - 72px) / 4);
+.features-item {
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 
@@ -252,7 +252,7 @@ body {
     gap: 24px;
 }
 
-.work-item:first-child {
+.work-not:first-child {
     flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
