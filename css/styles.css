@@ -92,6 +92,9 @@ body {
     gap: 40px;
 }
 
+
+
+
 .site-nav .it-list:not(:last-child) {
     margin-right: 40px;
 }
