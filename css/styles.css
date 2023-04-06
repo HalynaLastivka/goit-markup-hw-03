@@ -228,19 +228,14 @@ body {
     gap: 24px;
 }
 
-/* .features-item {
-    margin-right: 24px;
-} */
 
 .features-item {
-
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.features-item:last-child {
-
+/* .features-item:last-child {
     margin-right: 0px;
-}
+} */
 
 
 /*our work*/
