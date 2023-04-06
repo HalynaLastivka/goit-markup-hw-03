@@ -83,16 +83,11 @@ body {
 .main-nav {
     display: flex;
     align-items: center;
-    /* padding: 24px 0;
-    gap: 40px; */
 }
 
 .site-nav {
     display: flex;
     gap: 40px;
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
-
 }
 
 
@@ -237,7 +232,7 @@ body {
     margin-right: 24px;
 }
 
-.features-item {
+.features-item:first-child {
     flex-basis: calc((100% - 72px) / 4);
 }
 
