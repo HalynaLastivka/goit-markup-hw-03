@@ -225,16 +225,21 @@ body {
 .features-nt {
     display: flex;
     flex-direction: row;
-    /* gap: 24px; */
+    gap: 24px;
 }
 
-.features-item {
+/* .features-item {
     margin-right: 24px;
-}
+} */
 
 .features-item {
-    /* flex-basis: calc((100% - 72px) / 4); */
+
     flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.features-item:last-child {
+
+    margin-right: 0px;
 }
 
 
